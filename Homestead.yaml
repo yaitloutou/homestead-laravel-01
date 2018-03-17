@@ -9,10 +9,18 @@ folders:
     -
         map: ~/Projects/VirtualMachines/homestead-01
         to: /home/vagrant/code
+    -
+        map: ~/Projects/VirtualMachines/homestead-01
+        to: /home/vagrant/var/www/html
 sites:
     -
         map: homestead.test
-        to: /home/vagrant/code/Laravel/public
+        to: /home/vagrant/code/Laravel/public    
+    -
+        map: homestead.test
+        to: /home/vagrant/code/Apache/public
+        type: apache
+
 databases:
     - homestead
 name: homestead-01
