@@ -3,7 +3,7 @@ a laravel project inside a homestead vagrant box
 
 # add appache to the VM
 
-see [SO:A][https://stackoverflow.com/a/49339847/2245329]
+see [SO:A](https://stackoverflow.com/a/49339847/2245329)
 
 As for now, to make a site entry in Homestead.yaml file works with Apache2, you need to:
 
